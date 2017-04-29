@@ -1,0 +1,4 @@
+stagger.egg-info/**
+stagger/__pycache__/**
+venv/**
+**/*.pyc
