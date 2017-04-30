@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Stagger: {{ page }} </title>
+
+	<!--Stylesheets-->
+	<link rel="stylesheet" type="text/css" href="{{ request.static_url('stagger:static/css/baseStyle.css')}}">
+
+	<link rel="stylesheet" type="text/css" href="{{ request.static_url('stagger:static/css/navBar.css')}}">
+
+	
+	<!--Fonts-->
+	<link rel="stylesheet" href="https://gonts.googleapis.com/css?familly=Josefin+Sans">
+</head>
+
+<body>
+	{% block navBar %}
+	{% endblock %}
+
+	<div id="content">
+	{% block content %}
+	<h1> Test </h1>
+	{% endblock %}
+	</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+#navBar{
+	width: 100vw;
+	height: 2.25vw;
+	background-color: var(--light);
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	padding-left: 30px;
+
+	position: relative;
+	box-shadow: 2px 2px 10px;
+
+}
+
+#navBar ul{
+	margin: 0px;
+	height: 100%;
+}
+
+#navBar li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	font-size: 2vw;
+
+}
+
+#navBar li:hover{
+	color: white;
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	background-color: var(--dark);
+}
